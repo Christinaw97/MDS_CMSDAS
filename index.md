@@ -8,6 +8,10 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 {% comment %} This is a comment in Liquid {% endcomment %}
 
+<a href="{{ page.root }}/fig/CMS-EXO-20-015_Figure-aux_004-a.png">
+  <img src="{{ page.root }}/fig/CMS-EXO-20-015_Figure-aux_004-a.png" alt="event display" height=420 width=600 />
+</a>
+
 > ## Links
 > 
 > * [CMSDAS at LPC2024](https://indico.cern.ch/event/1333922/)
