@@ -10,7 +10,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 > ## Links
 > 
-> * [CMSDAS at LPC2024](https://indico.cern.ch/event/1333922/registrations/participants)
+> * [CMSDAS at LPC2024](https://indico.cern.ch/event/1333922/)
 {: .callout}
 
 > ## Prerequisites
@@ -21,12 +21,25 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 ### Goal of this exercise
 
+This analysis will search for long-lived particles decaying in the muon detector, creating a particle shower with a large hit multiplicity. 
+
+The exercise is performed on data collected during Run 2. 
+
+Students will study general features of long-lived particles, including:
+ * studying the reconstruction efficiency;
+ * making event displays;
+ * optimize the event selection;
+ * estimate background yield with the ABCD method;
+ * set limit on the LLP cross section.
+
 ### Facilitators CMSDAS LPC 2024
 
- * Martin Kwok
- * Christina Wang
- * Daniel Guerrero
- * Daniel Diaz	
+ * Martin Kwok (FNAL)
+ * Christina Wang (Caltech)
+ * Daniel Guerrero (FNAL)
+ * Daniel Diaz (UCSD)
+ * Michael Carrigan (OSU)
+ * Pallabi Das (Princeton)	
 
 ### Introductory slides
 
