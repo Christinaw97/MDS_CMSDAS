@@ -11,7 +11,8 @@ objectives:
 - "Reweight LLP lifetime given a signal sample with fixed LLP lifetime"
 - "Calculate the geometric acceptance of the endcap muon detector for different LLP lifetimes"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- Particle proper decay lengths follow an exponential decay.
+- LLP lifetime can be reweighted to avoid generating many signal samples with different LLP lifetimes
 ---
 
 Full set of intro slides: Slides 1-24 (FIXME)
@@ -43,6 +44,37 @@ In this exercise, we will plot the particle proper decay length, from the genera
 > ## Open a notebook
 >
 > For this part, open the notebook called `LLP_lifetimes.ipynb` and run `Ex1` to calculate and plot the LLP proper decay length and perform exponential fit.
+{: .checklist}
+
+
+> ## Discussion 1.1
+>
+> Are you able to extract the LLP proper decay length from the exponential fit? Does it agree with the expectation?
+{: .discussion}
+
+## Particle lifetime reweighting
+Since the particle lifetime is usually an unknown parameter. We would like to scan the particle lifetime/generate signal samples with different particle lifetimes. However, to avoid having to generate a large number of samples, we can reweight the particle lifetime from a signal sample with a given lifetime to a new designated particle lifetime.
+For example, we have only generated signal samples with particle lifetimes of 0.1, 1, 10, and 100m, we would like to use those signal samples to reweight to intermediate particle lifetimes (e.g. 0.5, 5, 50 m)
+
+In this exercise, we will go through how to reweight the particle lifetimes.
+> ## Open a notebook
+>
+> For this part, open the notebook called `LLP_lifetimes.ipynb` and run `Ex2` to reweight the particle lifetimes and plot the proper decay length distribution before and after reweighting to verify the reweighting is done properly.
+{: .checklist}
+
+
+> ## Discussion 1.2
+>
+> Why do we reweight from a larger lifetime to a smaller lifetime? What happens when we do the opposite (reweight from smaller lifetime to larger lifetime)?
+{: .discussion}
+
+## Probability of LLP decaying in endcap Muon Detectors
+
+In this section, we will calculate the probability of LLP decaying in the endcap muon detectors for different LLP lifetimes and observe how the probability changes with the lifetime
+
+> ## Open a notebook
+>
+> For this part, open the notebook called `LLP_lifetimes.ipynb` and run `Ex3` 
 {: .checklist}
 
 
