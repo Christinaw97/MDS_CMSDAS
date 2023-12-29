@@ -1,7 +1,7 @@
 ---
 title: "Long-lived Particles (LLPs)"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 50
 questions:
 - "What is a long-lived particle?"
 - "What is a particle proper decay lengths and lab frame decay lengths?"
@@ -70,7 +70,7 @@ In this exercise, we will go through how to reweight the particle lifetimes.
 > Why do we reweight from a larger lifetime to a smaller lifetime? What happens when we do the opposite (reweight from smaller lifetime to larger lifetime)?
 {: .discussion}
 
-## Probability of LLP decaying in endcap Muon Detectors
+## Probability of LLP decaying in Endcap Muon Detectors
 
 In this section, we will calculate the probability of LLP decaying in the endcap muon detectors for different LLP lifetimes and observe how the probability changes with the lifetime
 
