@@ -12,7 +12,9 @@ objectives:
 - "Calculate the geometric acceptance of the endcap muon detector for different LLP lifetimes"
 keypoints:
 - Particle proper decay lengths follow an exponential decay.
+- Long-lived particles for LHC searches generally have mean proper decay lengths of ~mm to ~km scale that create displaced signatures in the sub-detectors
 - LLP lifetime can be reweighted to avoid generating many signal samples with different LLP lifetimes
+- The probability that an LLP decays in a sub-detector depends on the LLP mean proper decay lengths, so searches for LLPs with different sub-detectors (tracker, calorimeter, and muon detectors) provide complementary coverage to LLPs
 ---
 
 Full set of intro slides: Slides 1-24 (FIXME)
