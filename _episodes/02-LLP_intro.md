@@ -1,5 +1,5 @@
 ---
-title: "LLP Signature"
+title: "Long-lived Particles (LLPs)"
 teaching: 0
 exercises: 0
 questions:
