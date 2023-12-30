@@ -13,9 +13,13 @@ ssh -L localhost:8888:localhost:8888 <YOUR USERNAME>@cmslpc-sl7.fnal.gov
 {: .language-bash}
 
 
-If you haven't done it yet, go to your `nobackup` area (`/uscms_data/d3/<YOUR USERNAME>/`) and create a folder for the CMSDAS exercises. Once you are there you can clone our repository:
+If you haven't done it yet, go to your `nobackup` area (`/uscms_data/d3/<YOUR USERNAME>/`) and create a folder for the CMSDAS exercises. Once you are there you can setup the CMSSW environment and clone our repository:
 
 ~~~
+cmsrel CMSSW_11_3_4
+cd CMSSW_11_3_4/src
+cmsenv
+
 git clone git@github.com:Christinaw97/MDS_CMSDAS.git 
 cd MDS_CMSDAS 
 ~~~
