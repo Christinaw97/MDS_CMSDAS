@@ -1,7 +1,7 @@
 ---
 title: "Analysis Strategy"
 teaching: 15
-exercises: 15
+exercises: 120
 questions:
 - "What trigger do we use?"
 - "What selections do we make to select for signal clusters?"
