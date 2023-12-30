@@ -1,7 +1,7 @@
 ---
 title: "Long-lived Particles (LLPs)"
 teaching: 10
-exercises: 50
+exercises: 120
 questions:
 - "What is a long-lived particle?"
 - "What is a particle proper decay lengths and lab frame decay lengths?"
