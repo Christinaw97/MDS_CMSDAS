@@ -72,14 +72,20 @@ In this exercise, we will go through how to reweight the particle lifetimes.
 
 ## Probability of LLP decaying in Endcap Muon Detectors
 
-In this section, we will calculate the probability of LLP decaying in the endcap muon detectors for different LLP lifetimes and observe how the probability changes with the lifetime
+In this section, we will calculate the probability of LLP decaying in the endcap muon detectors for different LLP lifetimes and observe how the probability changes with the lifetime.
 
 > ## Open a notebook
 >
 > For this part, open the notebook called `LLP_lifetimes.ipynb` and run `Ex3` 
 {: .checklist}
+In this exercise, you will first define the geometric decay region of the muon system based on Fig. 4.1.1 on page 141 of the [Muon Detector Technical Design Report](https://cds.cern.ch/record/343814?ln=en) and calculate the probability of LLP decaying in the endcap muon detectors for LLP mean proper decay lenegths (0.1, 1, 10, 100m) that have been generated.
+Then you will call the reweighting function that you've written in the previous exercise to calculate the probability, which we call geometric acceptance, for other intermediate proper decay lengths.
+Finally, you will plot the geometric acceptance with respect to the LLP mean proper decay lengths.
 
-
+> ## Discussion 1.3
+> Do you understand the shape of the geometric acceptance vs. LLP mean proper decay lengths plot? Why is the peak at 2m, much smaller than the distance between the muon detectors and the IP?
+> 
+{: .discussion}
 
 {% include links.md %}
 
