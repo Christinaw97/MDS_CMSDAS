@@ -20,6 +20,9 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > ## Prerequisites
 >
 > * [CMS DAS Pre-exercises](https://fnallpc.github.io/cms-das-pre-exercises/) 
+> * [CMS DAS offline ROOT short exercise](https://cmsdas.github.io/root-short-exercise/)
+> * [CMS DAS evnet display short exercise](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2024VisualizationExercise)
+
 {: .prereq}
 
 
