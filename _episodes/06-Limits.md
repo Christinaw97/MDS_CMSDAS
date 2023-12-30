@@ -1,5 +1,5 @@
 ---
-title: "Limit Setting"
+title: "Results and Statistical Analysis"
 teaching: 0
 exercises: 0
 questions:
@@ -11,11 +11,10 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
 
 ## create datacard
 
-## run combine
+## run Higgs Combine to computer limits
 
 Run the followiing command to install Higgs Combine:
 ~~~
@@ -52,6 +51,9 @@ The program will also create a ROOT file `higgsCombineTest.AsymptoticLimits.mH12
 {: .discussion}
 {% include links.md %}
 
-## make limit plots
+## Make limit plots
+
+In this exercise, we will use the limits that were saved in ROOT files produced in the previous exercise to calculate the limit on BR(h--> SS) with respect to the LLP mean proper decay lengths
+
 {% include links.md %}
 
