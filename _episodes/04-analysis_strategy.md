@@ -44,6 +44,7 @@ In this exercise you will plot the two variables for signal and background and a
 > ## Discussion 3.1
 >
 > Does the shape make sense to you? Why does signal has small values and background has larger values? The analysis apply a cut of `cscRechitClusterJetVetoPt<10` and `cscRechitClusterMuonVetoPt<20`, do you agree with these selections?
+{: .discussion}
 
 
 ## Cluster Hits in ME11/ME1/2
