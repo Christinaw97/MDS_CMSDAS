@@ -1,15 +1,16 @@
 ---
-title: "MDS Reconstruction"
+title: "Analysis Strategy"
 teaching: 15
 exercises: 15
 questions:
-- "What is Muon Detector Shower (MDS)?"
-- "How are MDS reconstructed?"
+- "What trigger do we use?"
+- "What selections do we make to select for signal clusters?"
+- "What are the background compositions for MDS?"
 objectives:
-- "Understand how are MDS reconstructed: the input, the algorithm, the output"
-- "Illustrate MDS reconstruction"
+- "Understand the choice of the MET trigger"
+- "Understand the background from punch-through jets, muon bremsstrahlung and low pT pileup particles"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- ""
 ---
 FIXME
 
