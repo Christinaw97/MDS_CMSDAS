@@ -23,7 +23,7 @@ FIXME
 {: .checklist}
 
 
-> ## Discussion 2.1
+> ## Discussion 3.1
 >
 > Why does the efficiency drops off at the two ends of the muon detectors?
 > 

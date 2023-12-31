@@ -50,7 +50,7 @@ In this exercise, we will plot the particle proper decay length, from the genera
 {: .checklist}
 
 
-> ## Discussion 1.1
+> ## Discussion 2.1
 >
 > Are you able to extract the LLP proper decay length from the exponential fit? Does it agree with the expectation?
 {: .discussion}
@@ -66,7 +66,7 @@ In this exercise, we will go through how to reweight the particle lifetimes.
 {: .checklist}
 
 
-> ## Discussion 1.2
+> ## Discussion 2.2
 >
 > Why do we reweight from a larger lifetime to a smaller lifetime? What happens when we do the opposite (reweight from smaller lifetime to larger lifetime)?
 {: .discussion}
@@ -83,7 +83,7 @@ In this exercise, you will first define the geometric decay region of the muon s
 Then you will call the reweighting function that you've written in the previous exercise to calculate the probability, which we call geometric acceptance, for other intermediate proper decay lengths.
 Finally, you will plot the geometric acceptance with respect to the LLP mean proper decay lengths.
 
-> ## Discussion 1.3
+> ## Discussion 2.3
 > Do you understand the shape of the geometric acceptance vs. LLP mean proper decay lengths plot? Why is the peak at 2m, much smaller than the distance between the muon detectors and the IP?
 > 
 {: .discussion}

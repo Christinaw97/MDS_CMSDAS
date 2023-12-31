@@ -23,8 +23,8 @@ The MDS signature is model independent, but to develop an analysis strategy we u
 We choose this model because its one of the more difficult model probe at the LHC, with no stable BSM particles to produce large MET and the final state objects from the higgs are generally low pT, and additionally this model is used commonly across many CMS physics searches for sensitivity comparison
 
 
-> ## Figure 1.1
-> <img src="../fig/twinhiggs.pdf" alt="" style="width: 600px;"/>
+> ## Figure 4.1
+> <img src="../fig/twinhiggs.pdf" alt="" style="width: 400px;"/>
 > Feynman diagram of the higgs portal model, where a pair of LLPs (S) are produced from the Higgs and the LLPs can decay to fermions.
 {: .callout}
 
@@ -36,7 +36,7 @@ For the signal event, when one LLP decays in the muon detector, for LLP $c\tau\s
 Therefore, when we require a high MET in the signal event, we are selecting for a boosted Higgs phase space.
 
 
-> ## Figure 1.2
+> ## Figure 4.2
 > <img src="../fig/trigger.png" alt="" style="width: 600px;"/>
 > Diagram demonstrating the signal topology.
 {: .callout}
@@ -68,7 +68,7 @@ In this exercise you will plot the two variables for signal and background and a
 {: .checklist}
 
 
-> ## Discussion 3.1
+> ## Discussion 4.1
 >
 > Does the shape make sense to you? Why does signal has small values and background has larger values? The analysis apply a cut of `cscRechitClusterJetVetoPt<10` and `cscRechitClusterMuonVetoPt<20`, do you agree with these selections?
 {: .discussion}
@@ -87,7 +87,7 @@ In this exercise you will plot the number of ME11/ME12 hits in clusters for sign
 {: .checklist}
 
 
-> ## Discussion 3.2
+> ## Discussion 4.2
 >
 > Does the shape make sense to you? Why does signal has small values and background has larger values? The analysis requires clusters to have no hits in ME11 and ME12, does you agree with the selection?
 > 
@@ -107,7 +107,7 @@ In this exercise you will plot the cluster $\eta$ for signal and background and 
 {: .checklist}
 
 
-> ## Discussion 3.3
+> ## Discussion 4.3
 >
 > Does the shape make sense to you? The analysis requires clusters to have $ \| \eta \| < 2$, does you agree with the selection?
 > 
@@ -125,7 +125,7 @@ To verify this, you will plot the cluster time for signal and background in this
 {: .checklist}
 
 
-> ## Discussion 3.4
+> ## Discussion 4.4
 >
 > Does the shape make sense to you? Why is data spaced at 25 ns?
 > 
@@ -148,24 +148,24 @@ In this exercise, we will just plot the distributions of the two variables, to u
 {: .checklist}
 
 
-> ## Discussion 3.5
+> ## Discussion 4.5
 >
 > Why does the $\Delta\phi\text{(cluster, MET)}$ peak at 0 for signal, but flat for background distribution?
 > 
 {: .discussion}
 
-> ## Question 3.1
+> ## Question 4.1
 >
 > Why does the $\Delta\phi\text{(cluster, MET)}$ peak at 0 for signal, but flat for background distribution?
 {: .challenge}
 
-> ## Solution 3.1
-> For signal, the cluster corresponds to the LLP direction and MET corresponds to the higgs direction, so the two objects are aligned as you can see from Figure 1.2.
+> ## Solution 4.1
+> For signal, the cluster corresponds to the LLP direction and MET corresponds to the higgs direction, so the two objects are aligned as you can see from Figure 4.2.
 > For background, clusters are produced from underlying events, while MET is calculated from primary event, so the two objects are independent.
 > Additionally, since $\Delta\phi\text{(cluster, MET)}$ is flat for background, it is also independent to $N_{\text{hits}}$, which is a key property that we will make use of in the next episode to develop the background estimation method.
 {: .solution}
 
-> ## Discussion 3.6
+> ## Discussion 4.6
 >
 > In the analysis, we apply a selection requiring the $N_{\text{hits}}>130$ and  $\| \Delta\phi\text{(cluster, MET)}\| < 0.75$. Do you agree with the selections?
 > 
