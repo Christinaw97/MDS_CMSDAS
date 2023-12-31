@@ -15,7 +15,7 @@ keypoints:
 - "Due to the lack of dedicated trigger, we use the high MET trigger in Run 2 to trigger on the signal"
 - "The background from main collision comes from punch-through jet and muon bremsstrahlung and are killed by dedicated jet and muon vetos and active vetos using the first muon detector station"
 - "The remaining irreducible background comes from low pT particles from pileup events and clear out-of-time pileup contributions can be observed from cluster time distribution"
-- "The final discriminating variables $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$ will be used to extract signal and estimate background"
+- "Two final discriminating variables that are independent for background will be used to extract signal and estimate background"
 ---
 
 
@@ -131,6 +131,20 @@ In this exercise, we will just plot the distributions of the two variables, to u
 > Why does the $\Delta\phi\text{(cluster, MET)}$ peak at 0 for signal, but flat for background distribution?
 > 
 {: .discussion}
+
+> ## Question 3.1
+>
+> Why does the $\Delta\phi\text{(cluster, MET)}$ peak at 0 for signal, but flat for background distribution?
+{: .challenge}
+
+> ## Solution 3.1
+> For signal, the cluster corresponds to the LLP direction and MET corresponds to the higgs direction, so the two objects are aligned as you can see from the diagram below.
+> <img src="../fig/deltaphi.png" alt="deltaphi" width="400px" />
+
+> For background, clusters are produced from underlying events, while MET is calculated from primary event, so the two objects are independent.
+> Additionally, since $\Delta\phi\text{(cluster, MET)}$ is flat for background, it is also independent to $N_{\text{hits}}$, which is a key property that we will make use of in the next episode to develop the background estimation method.
+{: .solution}
+
 > ## Discussion 3.6
 >
 > In the analysis, we apply a selection requiring the $N_{\text{hits}}>130$ and  $\Delta\phi\text{(cluster, MET)}<0.75$. Do you agree with the selections?
