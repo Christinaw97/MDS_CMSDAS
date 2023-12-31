@@ -15,7 +15,7 @@ keypoints:
 - "Due to the lack of dedicated trigger, we use the high MET trigger in Run 2 to trigger on the signal"
 - "The background from main collision comes from punch-through jet and muon bremsstrahlung and are killed by dedicated jet and muon vetos and active vetos using the first muon detector station"
 - "The remaining irreducible background comes from low pT particles from pileup events and clear out-of-time pileup contributions can be observed from cluster time distribution"
--- "The final discriminating variables $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$ will be used to extract signal and estimate background"
+- "The final discriminating variables $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$ will be used to extract signal and estimate background"
 ---
 
 
