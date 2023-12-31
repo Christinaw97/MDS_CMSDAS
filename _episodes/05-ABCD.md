@@ -9,13 +9,14 @@ objectives:
 - "Understand background sources for MDS"
 - "Understand ABCD method"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "The ABCD method requires the use of two independent variables for background, which implies the only source of background should be low pT particles"
+- "The method has been validated in the out-of-time validation region, allowing us to proceed to statistical analysis in the signal region"
 ---
 
 ## ABCD method
 
 As you've seen in the previous exercise, the main background is from clusters produced in pilup interactions.
-To estimate the background, we use a fully data-driven background estimation method, the ABCD method, that make use of two independent variables for the background: $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$.
+To estimate the background, we use a fully data-driven background estimation method, the ABCD method, that make use of two independent variables for background: $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$.
 
 The ABCD plane is illustrated in Figure 5.1, where bin A is the signal-enhanced region, with large values of $N_{\text{hits}}$ and small values of $\Delta\phi\text{(cluster, MET)}$.
 The estimation of the number of events in each bin is expressed by:

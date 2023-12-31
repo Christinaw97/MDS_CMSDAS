@@ -10,7 +10,7 @@ objectives:
 - "Illustrate MDS reconstruction"
 - "Calculate MDS reconstruction efficiency with respect to LLP decay position"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "MDS reconstruction efficiency depends on where the LLP decays with respect to the steel, since the decay particles require small amount of steel to initiate the shower and are detected only in the active gas chambers"
 ---
 FIXME
 
