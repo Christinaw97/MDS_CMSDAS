@@ -1,7 +1,7 @@
 ---
 title: "Background Estimation"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 40
 questions:
 - "What are the source of background for MDS?"
 - "How do we estimate the background contribution?"
@@ -21,13 +21,14 @@ The ABCD plane is illustrated in Figure 5.1, where bin A is the signal-enhanced 
 The estimation of the number of events in each bin is expressed by:
 
 
-
+$
 \begin{align}
-N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA  \\
-N_B &= c_1\times Bkg_C +\mu \times SigB \\
-N_C &= Bkg_C +\mu \times SigC \\
-N_D &= c_2\times Bkg_C +\mu \times SigD \\
+N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\\
+N_B &= c_1\times Bkg_C +\mu \times SigB\\
+N_C &= Bkg_C +\mu \times SigC\\
+N_D &= c_2\times Bkg_C +\mu \times SigD\\
 \end{align}
+$
 
 where:
 * SigA, SigB, SigC, SigD are the number of signal events expected in bin A, B, C, and D, taken from the signal MC prediction.
