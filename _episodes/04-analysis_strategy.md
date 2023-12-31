@@ -4,13 +4,18 @@ teaching: 15
 exercises: 120
 questions:
 - "What trigger do we use?"
-- "What selections do we make to select for signal clusters?"
-- "What are the background compositions for MDS?"
+- "What selections do we make to select for signal clusters and reject background clusters?"
+- "What are the remaining background compositions for MDS?"
+
 objectives:
-- "Understand the choice of the MET trigger"
 - "Understand the background from punch-through jets, muon bremsstrahlung and low pT pileup particles"
+- "Understand key variables that are used to remove background and final discriminating variables used to extract signal and estimate background"
+
 keypoints:
-- ""
+- "Due to the lack of dedicated trigger, we use the high MET trigger in Run 2 to trigger on the signal"
+- "The background from main collision comes from punch-through jet and muon bremsstrahlung and are killed by dedicated jet and muon vetos and active vetos using the first muon detector station"
+- "The remaining irreducible background comes from low pT particles from pileup events and clear out-of-time pileup contributions can be observed from cluster time distribution"
+-- "The final discriminating variables $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$ will be used to extract signal and estimate background"
 ---
 
 
@@ -82,7 +87,7 @@ In this exercise you will plot the cluster $\eta$ for signal and background and 
 
 > ## Discussion 3.3
 >
-> Does the shape make sense to you? The analysis requires clusters to have $ | \eta | < 2$, does you agree with the selection?
+> Does the shape make sense to you? The analysis requires clusters to have $ \| \eta \| < 2$, does you agree with the selection?
 > 
 {: .discussion}
 
