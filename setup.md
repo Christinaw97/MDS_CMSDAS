@@ -20,7 +20,7 @@ cmsrel CMSSW_11_3_4
 cd CMSSW_11_3_4/src
 cmsenv
 
-git clone git@github.com:Christinaw97/MDS_CMSDAS.git 
+git clone git@github.com:Christinaw97/MDS_CMSDAS.git -b 2024
 cd MDS_CMSDAS 
 ~~~
 {: .language-bash}
