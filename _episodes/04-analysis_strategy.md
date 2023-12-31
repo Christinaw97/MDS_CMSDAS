@@ -82,7 +82,7 @@ In this exercise you will plot the cluster $\eta$ for signal and background and 
 
 > ## Discussion 3.3
 >
-> Does the shape make sense to you? The analysis requires clusters to have $|\eta| < 2$, does you agree with the selection?
+> Does the shape make sense to you? The analysis requires clusters to have $ | \eta | < 2$, does you agree with the selection?
 > 
 {: .discussion}
 
@@ -109,9 +109,9 @@ Additionally, to make use of the out-of-time background clusters, we define a ba
 
 
 
-## Cluster $N_{hits}$ and $\Delta\phi(cluster, MET)$
+## Cluster $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$
 
-The final discriminating variables that we will use to extract the signal and estimate background are the number of hits in the cluster ($N_{hits}$) and the azimuthal angle between the cluster and MET ($\Delta\phi(cluster, MET)$). 
+The final discriminating variables that we will use to extract the signal and estimate background are the number of hits in the cluster ($N_{\text{hits}}$) and the azimuthal angle between the cluster and MET ( $\Delta\phi\text{(cluster, MET)}$).
 The background estimation method will be described in more detail in the next episode.
 In this exercise, we will just plot the distributions of the two variables, to understand the shape of the two variables.
 
@@ -123,12 +123,12 @@ In this exercise, we will just plot the distributions of the two variables, to u
 
 > ## Discussion 3.5
 >
-> Why does the $\Delta\phi(cluster, MET)$ peak at 0 for signal, but flat for background distribution?
+> Why does the $\Delta\phi\text{(cluster, MET)}$ peak at 0 for signal, but flat for background distribution?
 > 
 {: .discussion}
 > ## Discussion 3.6
 >
-> In the analysis, we apply a selection requiring the $N_{hits}>130$ and $\Delta\phi(cluster, MET)<0.75$. Do you agree with the selections?
+> In the analysis, we apply a selection requiring the $N_{\text{hits}}>130$ and  $\Delta\phi\text{(cluster, MET)}<0.75$. Do you agree with the selections?
 > 
 {: .discussion}
 
