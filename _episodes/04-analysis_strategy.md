@@ -148,11 +148,6 @@ In this exercise, we will just plot the distributions of the two variables, to u
 {: .checklist}
 
 
-> ## Discussion 4.5
->
-> Why does the $\Delta\phi\text{(cluster, MET)}$ peak at 0 for signal, but flat for background distribution?
-> 
-{: .discussion}
 
 > ## Question 4.1
 >
