@@ -38,7 +38,8 @@ Full set of intro slides: Slides 1-24 (FIXME)
 Particle decay is a Poisson process, and so the probability that a particle survives for time t before decaying is given by an exponential distribution whose time constant depends on the particle's mean proper decay time:
 
 $N(t) = e^{-t/\tau}$
-$$N(t) = e^{-t/\tau}$$
+
+
 Long-lived particles in CMS are generally considered to have $c\tau$ of ~mm to ~km scale that have non-negligible propability to decay in subdetectors (trackers, calorimeters, and muon detectors), creating displaced signatures.
 
 In this exercise, we will plot the particle proper decay length, from the generator-level LLP information (lab-frame decay vertex and velocity) to verify the exponential behavior.
