@@ -20,33 +20,14 @@ To estimate the background, we use a fully data-driven background estimation met
 The ABCD plane is illustrated in Figure 5.1, where bin A is the signal-enhanced region, with large values of $N_{\text{hits}}$ and small values of $\Delta\phi\text{(cluster, MET)}$.
 The estimation of the number of events in each bin is expressed by:
 
-$$\\
 
-\begin{align}
+
+\begin{align*}
 N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\\
 N_B &= c_1\times Bkg_C +\mu \times SigB\\
 N_C &= Bkg_C +\mu \times SigC\\
 N_D &= c_2\times Bkg_C +\mu \times SigD\\
-\end{align}
-
-\\$$
-
-
-\begin{align}
-N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\\
-N_B &= c_1\times Bkg_C +\mu \times SigB\\
-N_C &= Bkg_C +\mu \times SigC\\
-N_D &= c_2\times Bkg_C +\mu \times SigD\\
-\end{align}
-
-$
-\begin{align}
-N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\\
-N_B &= c_1\times Bkg_C +\mu \times SigB\\
-N_C &= Bkg_C +\mu \times SigC\\
-N_D &= c_2\times Bkg_C +\mu \times SigD\\
-\end{align}
-$
+\end{align*}
 
 where:
 * SigA, SigB, SigC, SigD are the number of signal events expected in bin A, B, C, and D, taken from the signal MC prediction.
