@@ -5,16 +5,16 @@ exercises: 0
 questions:
 - "How do we interpret the result?"
 objectives:
-- "Make datacards"
-- "Run combine"
-- "Plot limits"
+- "Understand how to make datacard and constrain the ABCD relationship for background in the datacards"
+- "Run Higgs Combine to get Asymptotic limits on BR from the datacards"
+- "Produce limit plots"
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
 ## create datacard
 
-## run Higgs Combine to computer limits
+## Run Higgs Combine to computer limits
 
 Run the followiing command to install Higgs Combine:
 ~~~
@@ -29,7 +29,7 @@ scramv1 b clean; scramv1 b # always make a clean build
 ~~~
 {: .language-bash}
 
-To run the Asymptotic frequentist Limits we can use the following command:
+To run the Asymptotic frequentist limits we can use the following command:
 ~~~
 combine -M AsymptoticLimits realistic-counting-experiment.txt
 ~~~
