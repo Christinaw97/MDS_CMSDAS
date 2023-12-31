@@ -56,10 +56,12 @@ In this exercise, we will plot the particle proper decay length, from the genera
 {: .discussion}
 
 ## Particle lifetime reweighting
-Since the particle lifetime is usually an unknown parameter. We would like to scan the particle lifetime/generate signal samples with different particle lifetimes. However, to avoid having to generate a large number of samples, we can reweight the particle lifetime from a signal sample with a given lifetime to a new designated particle lifetime.
-For example, we have only generated signal samples with particle lifetimes of 0.1, 1, 10, and 100m, we would like to use those signal samples to reweight to intermediate particle lifetimes (e.g. 0.5, 5, 50 m)
+Since the particle lifetime is usually an unknown parameter. We will interpret our search in a large range of particle lifetimes.
+However, to avoid having to generate a large number of signal Monte Carlo samples with different LLP lifetimese, we can reweight the particle lifetime from a signal sample with a given lifetime to a new designated particle lifetime.
+For example, we have only generated signal samples with particle lifetimes of 0.1, 1, 10, and 100m, we will use those signal samples to reweight to intermediate particle lifetimes (e.g. 0.5, 5, 50 m)
 
 In this exercise, we will go through how to reweight the particle lifetimes.
+
 > ## Open a notebook
 >
 > For this part, open the notebook called `LLP_lifetimes.ipynb` and run `Ex2` to reweight the particle lifetimes and plot the proper decay length distribution before and after reweighting to verify the reweighting is done properly.

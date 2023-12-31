@@ -49,7 +49,7 @@ where:
 ## Validation of the ABCD method
 
 We have shown the previous episode that if the background clusters are from pileup interaction than the two variables $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$ should be independent of each other.
-To validate this assumption and the only background sources are from pileup interactions, we create two validation region that are enriched with background and perform ABCD method to check that the prediction from ABCD matches with the observation.
+To validate this assumption and the only background sources are from pileup interactions, we create an out-of-time validation region that is enriched with background and perform ABCD method to check that the prediction from ABCD matches with the observation.
 
 
 > ## Open a notebook

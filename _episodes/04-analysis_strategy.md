@@ -56,7 +56,7 @@ To select for a signal-like cluster from an LLP, we will investigate a number of
 At the cluster-level, we don't apply any selections for data, while for signal we select clusters that are matched to generator-level LLPs that decay in the muon detectors.
 At the event-level, we only apply the MET trigger, offline MET cut, and the required MET filters that are already encoded in the `metFilters` variable.
 
-## Punch-through Jet and Muon Bremsstrahlung Background
+### Punch-through Jet and Muon Bremsstrahlung Background
 
 The dominant background from the main collision comes from punch-through jets that are not fully contained in the calorimeters and high pT muons that could create bremsstrahlung showers in the muon detectors. To remove those background, we reject clusters by matching them to reconstructed jets and muon.
 The pT of the jet/muon that the cluster is matched to are saved in objects called `cscRechitClusterJetVetoPt` and `cscRechitClusterMuonVetoPt`.
@@ -74,7 +74,7 @@ In this exercise you will plot the two variables for signal and background and a
 {: .discussion}
 
 
-## Cluster Hits in ME11/ME1/2
+### Cluster Hits in ME11/ME1/2
 
 Additionally, punch-through jets or muon bremsstrahlung showers might not get reconstructed as jets and muons.
 To fully remove these background, we remove clusters that have hits in the first CSC stations (ME11/ME12) that have little shielding in front.
@@ -95,7 +95,7 @@ In this exercise you will plot the number of ME11/ME12 hits in clusters for sign
 
 
 
-## Cluster $\eta$ 
+### Cluster $\eta$ 
 
 After we removed punch-through jets and muon brems, we observed that there are a lot more backgorund in higer $\eta$ region, where the muon reconstruction efficiency is lower and more pileup particles are present to create clusters.
 
@@ -114,7 +114,7 @@ In this exercise you will plot the cluster $\eta$ for signal and background and 
 {: .discussion}
 
 
-## Cluster time
+### Cluster time
 
 The remaining background clusters after punch-through jet and muon brem showers from the main collision are removed, are from low pT particles in pileup events.
 To verify this, you will plot the cluster time for signal and background in this exercise to check for any out-of-time pileup contributions in data.
@@ -136,7 +136,7 @@ Additionally, to make use of the out-of-time background clusters, we define a ba
 
 
 
-## Cluster $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$
+### Cluster $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$
 
 The final discriminating variables that we will use to extract the signal and estimate background are the number of hits in the cluster ($N_{\text{hits}}$) and the azimuthal angle between the cluster and MET ( $\Delta\phi\text{(cluster, MET)}$).
 The background estimation method will be described in more detail in the next episode.
