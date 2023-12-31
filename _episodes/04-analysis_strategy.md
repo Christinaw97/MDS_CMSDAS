@@ -18,13 +18,35 @@ keypoints:
 - "Two final discriminating variables that are independent for background will be used to extract signal and estimate background"
 ---
 
+## Benchmark model
+The MDS signature is model independent, but to develop an analysis strategy we use the higgs portal as a benchmark model, where the Feynman diagram shown below.
+We choose this model because its one of the more difficult model probe at the LHC, with no stable BSM particles to produce large MET and the final state objects from the higgs are generally low pT, and additionally this model is used commonly across many CMS physics searches for sensitivity comparison
 
 
-As mentioned in the introductory slides, since there's no dedicated trigger we use the MET trigger, which has a 1% signal efficiency for higgs portal signals.
-The event selections are kept at minimal, applying only the MET trigger and an offline MET cut of 200 GeV, due to the use of the high-MET skim dataset.
-To select for a signal-like cluster from an LLP, we will investigate a number of variables that are used in the analysis that remove punch-through jet and muon brem background.
+> ## Figure 1.1
+> <img src="../fig/twinhiggs.pdf" alt="" style="width: 600px;"/>
+> Feynman diagram of the higgs portal model, where a pair of LLPs (S) are produced from the Higgs and the LLPs can decay to fermions.
+{: .callout}
 
-## Cluster-level Selections
+## Trigger strategy and event-level selections
+
+As mentioned in the introductory slides, there's no dedicated trigger for this signature in Run2.
+For the Run2 search, we use the MET trigger, which has a 1% signal efficiency for higgs portal signals.
+For the signal event, when one LLP decays in the muon detector, for LLP $c\tau\sim 1$, in most cases the second LLP also decays outside of the calorimeter, so the MET is highly correlated with the higgs pT, as seen in Figure 1.2
+Therefore, when we require a high MET in the signal event, we are selecting for a boosted Higgs phase space.
+
+
+> ## Figure 1.2
+> <img src="../fig/trigger.png" alt="" style="width: 600px;"/>
+> Diagram demonstrating the signal topology.
+{: .callout}
+
+The event selections for this search are kept at minimal to be as model independent as possible.
+We only apply the MET trigger and an offline MET cut of 200 GeV, due to the use of the high-MET skim dataset.
+
+To select for a signal-like cluster from an LLP, we will investigate a number of variables that are used in the analysis that remove punch-through jet and muon brem background in the following sections.
+
+## Cluster-level selections
 
 > ## Open a notebook
 >
@@ -138,8 +160,7 @@ In this exercise, we will just plot the distributions of the two variables, to u
 {: .challenge}
 
 > ## Solution 3.1
-> For signal, the cluster corresponds to the LLP direction and MET corresponds to the higgs direction, so the two objects are aligned as you can see from the diagram below.
-> <img src="../fig/deltaphi.png" alt="deltaphi" width="400px" />
+> For signal, the cluster corresponds to the LLP direction and MET corresponds to the higgs direction, so the two objects are aligned as you can see from Figure 1.2.
 > For background, clusters are produced from underlying events, while MET is calculated from primary event, so the two objects are independent.
 > Additionally, since $\Delta\phi\text{(cluster, MET)}$ is flat for background, it is also independent to $N_{\text{hits}}$, which is a key property that we will make use of in the next episode to develop the background estimation method.
 {: .solution}
