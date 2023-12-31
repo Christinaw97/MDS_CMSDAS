@@ -22,12 +22,12 @@ The estimation of the number of events in each bin is expressed by:
 
 
 
-\begin{align*}
-N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\\
-N_B &= c_1\times Bkg_C +\mu \times SigB\\
-N_C &= Bkg_C +\mu \times SigC\\
-N_D &= c_2\times Bkg_C +\mu \times SigD\\
-\end{align*}
+\begin{align}
+N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA \nonumber \\
+N_B &= c_1\times Bkg_C +\mu \times SigB\nonumber \\
+N_C &= Bkg_C +\mu \times SigC\nonumber \\
+N_D &= c_2\times Bkg_C +\mu \times SigD\nonumber \\
+\end{align}
 
 where:
 * SigA, SigB, SigC, SigD are the number of signal events expected in bin A, B, C, and D, taken from the signal MC prediction.
@@ -37,7 +37,7 @@ where:
 
 > ## Figure 5.1
 > <img src="../fig/abcd.png" alt="" style="width: 600px;"/>
-> Diagram of the ABCD plane, where bin A is the signal region.
+> Diagram of the ABCD plane, where bin A is the signal region, $c_1$ is the ratio between background in B and C, and $c_2$ is the ratio between background in D and C.
 {: .callout}
 
 
