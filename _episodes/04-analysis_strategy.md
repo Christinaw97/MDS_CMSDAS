@@ -81,7 +81,7 @@ In this exercise you will plot the cluster $\eta$ for signal and background and 
 
 > ## Open a notebook
 >
-> For this part, open the notebook called `analysis_strategy.ipynb` and run `Ex3` to plot the cluster $|\eta|$.
+> For this part, open the notebook called `analysis_strategy.ipynb` and run `Ex3` to plot the cluster $\|\eta\|$.
 {: .checklist}
 
 
@@ -140,14 +140,13 @@ In this exercise, we will just plot the distributions of the two variables, to u
 > ## Solution 3.1
 > For signal, the cluster corresponds to the LLP direction and MET corresponds to the higgs direction, so the two objects are aligned as you can see from the diagram below.
 > <img src="../fig/deltaphi.png" alt="deltaphi" width="400px" />
-
 > For background, clusters are produced from underlying events, while MET is calculated from primary event, so the two objects are independent.
 > Additionally, since $\Delta\phi\text{(cluster, MET)}$ is flat for background, it is also independent to $N_{\text{hits}}$, which is a key property that we will make use of in the next episode to develop the background estimation method.
 {: .solution}
 
 > ## Discussion 3.6
 >
-> In the analysis, we apply a selection requiring the $N_{\text{hits}}>130$ and  $\Delta\phi\text{(cluster, MET)}<0.75$. Do you agree with the selections?
+> In the analysis, we apply a selection requiring the $N_{\text{hits}}>130$ and  $\| \Delta\phi\text{(cluster, MET)}\| < 0.75$. Do you agree with the selections?
 > 
 {: .discussion}
 
