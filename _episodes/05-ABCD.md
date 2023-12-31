@@ -30,6 +30,24 @@ N_D &= c_2\times Bkg_C +\mu \times SigD\\
 \end{align}
 
 \\$$
+
+
+\begin{align}
+N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\\
+N_B &= c_1\times Bkg_C +\mu \times SigB\\
+N_C &= Bkg_C +\mu \times SigC\\
+N_D &= c_2\times Bkg_C +\mu \times SigD\\
+\end{align}
+
+$
+\begin{align}
+N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\\
+N_B &= c_1\times Bkg_C +\mu \times SigB\\
+N_C &= Bkg_C +\mu \times SigC\\
+N_D &= c_2\times Bkg_C +\mu \times SigD\\
+\end{align}
+$
+
 where:
 * SigA, SigB, SigC, SigD are the number of signal events expected in bin A, B, C, and D, taken from the signal MC prediction.
 * $\mu$ is the signal strength (the model parameter of interest)
@@ -37,7 +55,7 @@ where:
 * BkgC is the number of background events in bin C
 
 > ## Figure 5.1
-> <img src="../fig/abcd.png" alt="" style="width: 400px;"/>
+> <img src="../fig/abcd.png" alt="" style="width: 600px;"/>
 > Diagram of the ABCD plane, where bin A is the signal region.
 {: .callout}
 
