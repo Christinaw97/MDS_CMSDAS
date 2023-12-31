@@ -35,7 +35,7 @@ Full set of intro slides: Slides 1-24 (FIXME)
 
 ## Particle lifetime
 
-Particle decay is a Poisson process, and so the probability that a particle survives for time t before decaying is given by an exponential distribution whose time constant depends on the particle's mean proper decay time:
+Particle decay is a Poisson process, and so the probability that a particle survives for time t (in their own time frame) before decaying is given by an exponential distribution whose time constant depends on the particle's mean proper decay time($\tau$):
 
 $N(t) = e^{-t/\tau}$
 
