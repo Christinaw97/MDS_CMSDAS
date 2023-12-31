@@ -6,28 +6,32 @@ questions:
 - "How to make event displays of interesting signal simulation?"
 objectives:
 - "Learn to make event displays by choosing the interesting events in RECO format and open them with cmsShow"
-
+keypoints:
+- "Event displays allow us to view all available collections visually and scrutinize event topologies that are not possible with ntuples"
 ---
 
-In this episode you will create event display of signal simulation events that enter the signal region.
+In this episode you will create event display of signal simulation events that pass the signal region selectionns
 
 ## Find and pick events you want to view
 
-We will first find the events that we want to view, by saving the run number, lumi section, and event number of the events.
+We will first find the events that we want to view, by saving the run number, lumi section, and event number of the events in a text file.
+
 > ## Open a notebook
 >
 > For this part, open the notebook called `event_display.ipynb`.
-> This note book is very similar to the notebook in the previous episode, where we make the signal region selection and save the run number, lumi section, and event number of the events that we want to view in a text file.
+> This note book is very similar to the notebook in the previous episode, where we make the signal region selection.
+> In addition, we save the run number, lumi section, and event number of the events that we want to view in a text file.
 {: .checklist}
 
-create text file of event number from selection
+
 Now run the following code that will pick the ROOT files in the dataset that contain the events that you want based on the run/lumi/event numbers that you supplied:
+
 ~~~
 edmPickEvents.py  "/ggH_HToSSTobbbb_MH-125_TuneCP5_13TeV-powheg-pythia8/RunIIFall17DRPremix-PU2017_rp_94X_mc2017_realistic_v11-v1/GEN-SIM-RECO” event_display.txt
 ~~~
 {: .language-bash}
 
-This command will print a command on the screen, like the following, copy and run it in the terminal:
+The above command will print another command on the screen, like the following, copy and run it in the terminal:
 
 ~~~
 edmCopyPickMerge outputFile=pickevents.root \
@@ -54,13 +58,15 @@ cd cmsShow-12.1
  {: .language-bash}
 
 You will now see a graphical interface like this:
-By default the `csc2DRecHits` are not included in the display, go to Add Collection on the left to add the rechits collections!
-Now you can skim through the events that you have selected to see if the clusters appear as you've expected.
+
 
 > ## Figure 5.1
 > <img src="../fig/event_display.png" alt="" style="width: 600px;"/>
 > Event display of a signal event from cmsShow.
 {: .callout}
+
+By default the `csc2DRecHits` are not included in the display, go to Add Collection on the left to add the rechits collections!
+Now you can skim through the events that you have selected to see if the clusters appear as you've expected.
 
 {% include links.md %}
 
