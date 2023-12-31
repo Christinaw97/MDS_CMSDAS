@@ -24,10 +24,10 @@ The estimation of the number of events in each bin is expressed by:
 $$\\
 
 \begin{align}
-N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\\
-N_B &= c_1\times Bkg_C +\mu \times SigB\\
-N_C &= Bkg_C +\mu \times SigC\\
-N_D &= c_2\times Bkg_C +\mu \times SigD\\
+N_A &= c_1\times c_2 \times Bkg_C +\mu \times SigA\nonumber\\
+N_B &= c_1\times Bkg_C +\mu \times SigB\nonumber\\
+N_C &= Bkg_C +\mu \times SigC\nonumber\\
+N_D &= c_2\times Bkg_C +\mu \times SigD\nonumber\\
 \end{align}
 
 \\$$
