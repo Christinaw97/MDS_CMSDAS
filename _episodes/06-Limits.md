@@ -98,7 +98,7 @@ combine -M AsymptoticLimits test.txt --freezeParameters norm --setParameters nor
 The program will print the limit on the signal strength r (number of signal events / number of expected signal events) e .g. Observed Limit: r < XXX @ 95% CL , the median expected limit Expected 50.0%: r < XXX, and edges of the 68% and 95% ranges for the expected limits.
 The program will also create a ROOT file `higgsCombineTest.AsymptoticLimits.mH120.root` containing a ROOT tree limit that contains the limit values that we will use later to produce limits plots.
 
-Since we have normalized our signal yield to assume BR(h$\rightarrow$ SS) = 1, the limit on the signal strength r from Combine essentially tells us the limit on BR(h$\rightarrow SS), modulo the normalization in signal yield.
+Since we have normalized our signal yield to assume BR(h$\rightarrow$ SS) = 1, the limit on the signal strength r from Combine essentially tells us the limit on BR(h$\rightarrow$ SS), modulo the normalization in signal yield.
 
 > ## Open a script
 >
@@ -108,7 +108,7 @@ Since we have normalized our signal yield to assume BR(h$\rightarrow$ SS) = 1, t
 
 ## Make limit plots
 
-In this exercise, we will use the limits that were saved in ROOT files produced in the previous exercise to calculate the limit on BR(h $\righhtarrow$ SS) with respect to the LLP mean proper decay lengths. 
+In this exercise, we will use the limits that were saved in ROOT files produced in the previous exercise to calculate the limit on BR(h $\rightarrow$ SS) with respect to the LLP mean proper decay lengths. 
 
 
 > ## Discussion 6.1
