@@ -15,6 +15,8 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > ## Links
 > 
 > * [CMSDAS at LPC2024](https://indico.cern.ch/event/1333922/)
+> * [Github repo](https://github.com/Christinaw97/MDS_CMSDAS/tree/2024)
+> * [Paper reference](https://cms-results.web.cern.ch/cms-results/public-results/publications/EXO-20-015/index.html)
 {: .callout}
 
 > ## Prerequisites
@@ -22,7 +24,6 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > * [CMS DAS Pre-exercises](https://fnallpc.github.io/cms-das-pre-exercises/) 
 > * [CMS DAS offline ROOT short exercise](https://cmsdas.github.io/root-short-exercise/)
 > * [CMS DAS evnet display short exercise](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2024VisualizationExercise)
-
 {: .prereq}
 
 

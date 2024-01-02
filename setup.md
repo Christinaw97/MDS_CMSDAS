@@ -26,12 +26,6 @@ cd MDS_CMSDAS
 {: .language-bash}
 
 
-Activate your grid certificate:
-~~~
-voms-proxy-init -voms cms -valid 192:00
-~~~
-{: .language-bash}
-
 The following commands one has to do it *everytime you log in into a new session*. They load the
 environment and the packages needed for the exercises and open a jupyter notebook:
 ~~~
