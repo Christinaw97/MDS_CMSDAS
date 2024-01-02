@@ -1,7 +1,7 @@
 ---
 title: "MDS Reconstruction"
-teaching: 15
-exercises: 15
+teaching: 30
+exercises: 180
 questions:
 - "What is Muon Detector Shower (MDS)?"
 - "How are MDS reconstructed?"
