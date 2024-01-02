@@ -74,7 +74,7 @@ In this exercise you will plot the two variables for signal and background and a
 {: .discussion}
 
 
-### Cluster Hits in ME11/ME1/2
+### Cluster Hits in ME11 and ME12
 
 Additionally, punch-through jets or muon bremsstrahlung showers might not get reconstructed as jets and muons.
 To fully remove these background, we remove clusters that have hits in the first CSC stations (ME11/ME12) that have little shielding in front.
@@ -83,7 +83,7 @@ In this exercise you will plot the number of ME11/ME12 hits in clusters for sign
 
 > ## Open a notebook
 >
-> For this part, open the notebook called `analysis_strategy.ipynb` and run `Ex2` to plot the two variables the number of ME11/ME12 hits in clusters
+> For this part, open the notebook called `analysis_strategy.ipynb` and run `Ex2` to plot the number of ME11/ME12 hits in clusters
 {: .checklist}
 
 
