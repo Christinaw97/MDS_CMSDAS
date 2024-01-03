@@ -131,6 +131,11 @@ To verify this, you will plot the cluster time for signal and background in this
 > 
 {: .discussion}
 
+> ## Discussion 4.5
+>
+> Does the data distribution change with and without the vetoes applied? If it does, do you know why?
+> 
+{: .discussion}
 In the analysis, we apply a selection requiring the cluster time to be between -5 ns and -12.5 ns as the signal region.
 Additionally, to make use of the out-of-time background clusters, we define a background-enriched early out-of-time (OOT) validation region for the background estimation method used for this analysis, which we will go through in the next episode.
 
@@ -160,7 +165,7 @@ In this exercise, we will just plot the distributions of the two variables, to u
 > Additionally, since $\Delta\phi\text{(cluster, MET)}$ is flat for background, it is also independent to $N_{\text{hits}}$, which is a key property that we will make use of in the next episode to develop the background estimation method.
 {: .solution}
 
-> ## Discussion 4.6
+> ## Discussion 4.7
 >
 > In the analysis, we apply a selection requiring the $N_{\text{hits}}>130$ and  $\| \Delta\phi\text{(cluster, MET)}\| < 0.75$. Do you agree with the selections?
 > 

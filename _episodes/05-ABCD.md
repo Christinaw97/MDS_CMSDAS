@@ -55,8 +55,15 @@ To validate this assumption and the only background sources are from pileup inte
 
 > ## Open a notebook
 >
-> For this part, open the notebook called `ABCD_validation.ipynb` and define the OOT control region and perform the validation test for various thresholds.
+> For this part, open the notebook called `ABCD_validation.ipynb` and define the OOT control region and perform the validation test by scanning both $N_{\text{hits}}$ and $\Delta\phi\text{(cluster, MET)}$ thresholds.
 {: .checklist}
+
+
+> ## Discussion 5.1
+>
+> Does the prediction agree with the observation?
+> 
+{: .discussion}
 
 
 {% include links.md %}

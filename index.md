@@ -17,28 +17,34 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > * [CMSDAS at LPC2024](https://indico.cern.ch/event/1333922/)
 > * [Github repo](https://github.com/Christinaw97/MDS_CMSDAS/tree/2024)
 > * [Paper reference](https://cms-results.web.cern.ch/cms-results/public-results/publications/EXO-20-015/index.html)
+> * [EXO-20-015 CADI page](https://cms.cern.ch/iCMS/analysisadmin/cadilines?id=2391&ancode=EXO-20-015&tp=an&line=EXO-20-015)
+
 {: .callout}
 
 > ## Prerequisites
 >
 > * [CMS DAS Pre-exercises](https://fnallpc.github.io/cms-das-pre-exercises/) 
 > * [CMS DAS offline ROOT short exercise](https://cmsdas.github.io/root-short-exercise/)
-> * [CMS DAS evnet display short exercise](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2024VisualizationExercise)
+> * [CMS DAS event display short exercise](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2024VisualizationExercise)
 {: .prereq}
 
 
 ### Goal of this exercise
 
-This analysis will search for long-lived particles decaying in the muon detector, creating a particle shower with a large hit multiplicity. 
+This exercise will search for long-lived particles decaying in the CMS muon detector, where we use the muon detector as a sampling calrimeter to identify displaced showers produced by decays of LLPs. 
+The signature is enabled by the unique design of CMS muon detectors, composed of detector planes interleaved with the steel layers of the magnet flux-return yoke. Decays of LLPs in the EMD induce hadronic and electromagnetic showers, giving rise to a high hit multiplicity in localized detector regions that can be efficiently identified with a novel reconstruction technique. The steel flux-return yoke in the CMS detector also provides exceptional shielding from the SM background that dominates existing LLP searches. 
+
+The exercise is based on [CMS-EXO-20-015](https://cms-results.web.cern.ch/cms-results/public-results/publications/EXO-20-015/index.html), which is the first paper to use this innovative LLP reconstruction technique to search for high-multiplicity muon detector showers(MDS).
 
 The exercise is performed on data collected during Run 2. 
 
-Students will study general features of long-lived particles, including:
- * studying the reconstruction efficiency;
- * making event displays;
+Students will perform the full analysis to search for LLPs decaying in the endcap muon detectors:
+ * learn general feature of long-lived particles
+ * study the reconstruction of muon detector shower;
  * optimize the event selection;
  * estimate background yield with the ABCD method;
- * set limit on the LLP cross section.
+ * perform statistical analysis on the results
+ * make event displays of signal simulation events
 
 ### Facilitators CMSDAS LPC 2024
 
