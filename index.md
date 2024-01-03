@@ -25,7 +25,9 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 >
 > * [CMS DAS Pre-exercises](https://fnallpc.github.io/cms-das-pre-exercises/) 
 > * [CMS DAS offline ROOT short exercise](https://cmsdas.github.io/root-short-exercise/)
-> * [CMS DAS event display short exercise](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2024VisualizationExercise)
+> * [CMS Statistics short exercise]()
+> * [CMS Pile-Up and Missing ET short exercise]()
+> * [CMS DAS offline event display short exercise](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2024VisualizationExercise)
 {: .prereq}
 
 
