@@ -47,13 +47,14 @@ Students will perform the full analysis to search for LLPs decaying in the endca
  * make event displays of signal simulation events
 
 ### Facilitators CMSDAS LPC 2024
+> <img src="../fig/ficilitators.png" alt="" style="width: 600px;"/>
 
- * Martin Kwok (FNAL)
+<!--  * Martin Kwok (FNAL)
  * Christina Wang (Caltech)
  * Daniel Guerrero (FNAL)
  * Daniel Diaz (UCSD)
  * Michael Carrigan (OSU)
- * Pallabi Das (Princeton)	
+ * Pallabi Das (Princeton)	 -->
 
 ### Introductory slides
 
