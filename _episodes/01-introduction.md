@@ -14,7 +14,7 @@ keypoints:
 - "Searching for LLPs with the CMS muon detectors that is interleaved with steel return yoke give rise to unique high multiplicity signature that allow us to be sensitive to a broad range of LLP decay modes and to LLP masses below GeV"
 ---
 
-We will go through the introductory slides to give you an overview of the motivation to search for LLP with the CMS muon detectors, the analysis strategy, background estimation methods, and limit setting on LLP cross section.
+We will go through the [introductory slides](https://christinaw97.github.io/MDS_CMSDAS/data/CMSDAS_2024.pdf) to give you an overview of the motivation to search for LLP with the CMS muon detectors, the analysis strategy, background estimation methods, and limit setting on LLP cross section.
 
 {% include links.md %}
 
