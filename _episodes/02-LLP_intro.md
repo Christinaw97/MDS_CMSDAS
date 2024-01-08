@@ -17,9 +17,7 @@ keypoints:
 - The probability that an LLP decays in a sub-detector depends on the LLP mean proper decay lengths, so searches for LLPs with different sub-detectors (tracker, calorimeter, and muon detectors) provide complementary coverage to LLPs
 ---
 
-Full set of intro slides: Slides 1-24 (FIXME)
 
----
 
 > ## After following the instructions in the setup:
 >
