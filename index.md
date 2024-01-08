@@ -58,7 +58,7 @@ Students will perform the full analysis to search for LLPs decaying in the endca
 
 ### Introductory slides
 
-We will start with this version of slides: [FIXME.pdf](). (FIXME)
+We will start with this version of slides: [FIXME.pdf](https://christinaw97.github.io/data/CMSDAS_2024.pdf). (FIXME)
 
 ### Support
 
