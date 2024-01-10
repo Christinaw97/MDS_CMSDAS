@@ -24,7 +24,7 @@ We choose this model because its one of the more difficult model probe at the LH
 
 
 > ## Figure 4.1
-> <img src="../fig/twinhiggs.pdf" alt="" style="width: 400px;"/>
+> <img src="../fig/twinhiggs.png" alt="" style="width: 400px;"/>
 > Feynman diagram of the higgs portal model, where a pair of LLPs (S) are produced from the Higgs and the LLPs can decay to fermions.
 {: .callout}
 
