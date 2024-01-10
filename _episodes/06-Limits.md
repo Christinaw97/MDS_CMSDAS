@@ -49,6 +49,21 @@ In this exercise, we will walk you through to apply all the signal region select
 ## Results
 
 Based on the unblinded data, we can perform a background-only fit to see if the observation agrees with the background prediction.
+
+
+Run the followiing command to install Higgs Combine:
+~~~
+cd ${CMSSW_BASE}/src
+cmsenv
+git clone https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit
+cd HiggsAnalysis/CombinedLimit
+cd $CMSSW_BASE/src/HiggsAnalysis/CombinedLimit
+git fetch origin
+git checkout v9.1.0
+scramv1 b clean; scramv1 b # always make a clean build
+~~~
+{: .language-bash}
+
 Choose any of the datacards that you've produced and run the following commands:
 
 ~~~
@@ -75,18 +90,6 @@ Does the background prediction agree with the observation?
 
 ## Run Higgs Combine to compute limits
 
-Run the followiing command to install Higgs Combine:
-~~~
-cd ${CMSSW_BASE}/src
-cmsenv
-git clone https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit
-cd HiggsAnalysis/CombinedLimit
-cd $CMSSW_BASE/src/HiggsAnalysis/CombinedLimit
-git fetch origin
-git checkout v9.1.0
-scramv1 b clean; scramv1 b # always make a clean build
-~~~
-{: .language-bash}
 
 To run the Asymptotic frequentist limits we can use the following command:
 ~~~
