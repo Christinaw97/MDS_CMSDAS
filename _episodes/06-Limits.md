@@ -91,7 +91,7 @@ Does the background prediction agree with the observation?
 ## Run Higgs Combine to compute limits
 
 
-To run the Asymptotic frequentist limits we can use the following command:
+To run the Asymptotic frequentist limits we can use the following command (replace `test.txt` with your datacard path):
 ~~~
 combine -M AsymptoticLimits test.txt --freezeParameters norm --setParameters norm=1
 # a good rule of thumb for norm is to set it equal to 1./sigA, where sigA is the signal yield in bin A
