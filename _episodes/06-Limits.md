@@ -113,6 +113,13 @@ Since we have normalized our signal yield to assume BR(h$\rightarrow$ SS) = 1, t
 
 In this exercise, we will use the limits that were saved in ROOT files produced in the previous exercise to calculate the limit on BR(h $\rightarrow$ SS) with respect to the LLP mean proper decay lengths. 
 
+> ## Open a notebook
+>
+> For this part, open the notebook called `limitPlot.ipynb.ipynb` to plot the expected and observed limits. See if the limit agrees with the one showed on slide 25 of the introduction slides.
+
+{: .checklist}
+
+
 
 > ## Discussion 6.1
 >
