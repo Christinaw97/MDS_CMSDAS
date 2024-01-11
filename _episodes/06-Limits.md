@@ -120,5 +120,14 @@ In this exercise, we will use the limits that were saved in ROOT files produced 
 > 
 {: .discussion}
 
+> ## Exercise 
+> Now that you have the limit plot for 40 GeV, try to see if you can create datacards, run combine, and make limits plot for 15 and 55 GeV.
+> Try to plot them in the same canvas, like the one in slide 25 of the introduction slide.
+> 
+{: .discussion}
+
+
 {% include links.md %}
+
+
 
