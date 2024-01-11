@@ -115,7 +115,7 @@ In this exercise, we will use the limits that were saved in ROOT files produced 
 
 > ## Open a notebook
 >
-> For this part, open the notebook called `limitPlot.ipynb.ipynb` to plot the expected and observed limits. See if the limit agrees with the one showed on slide 25 of the introduction slides.
+> For this part, open the notebook called `limitPlot.ipynb` to plot the expected and observed limits. See if the limit agrees with the one showed on slide 25 of the introduction slides.
 {: .checklist}
 
 
